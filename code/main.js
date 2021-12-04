@@ -95,14 +95,14 @@ scene("lose", () => {
     sprite("flappy"),
     pos(WIDTH / 2, HEIGHT / 2 - 100 ),
     scale(3),
-    origin("CENTER"),
+    origin("center"),
   ])
 
   add([
     text("GAME OVER"),
     pos(WIDTH / 2, HEIGHT / 2 + 100),
     scale(2.5),
-    origin("CENTER"),
+    origin("center"),
   ])
 
   add([
